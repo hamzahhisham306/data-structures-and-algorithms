@@ -86,7 +86,7 @@ console.log(people[1].isAuthor) prints true
 ------------------------------------------------------------------------------------------------ */
 
 const setStatusAsAuthor = (people) => {
-  people.forEach(n => n.isAuthor = true);
+ return people.forEach(n => n.isAuthor = true);
 };
 
 /* ------------------------------------------------------------------------------------------------
